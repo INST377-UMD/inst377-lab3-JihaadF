@@ -1,0 +1,68 @@
+body{
+    background-color: firebrick;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+#head{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    width: 98%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    clear: both;
+}
+
+#main-nav{
+    color: white;
+    background-color: plum;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#main-nav li:hover{
+   background-color: firebrick;
+   color: white;
+}
+
+#main-nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.content{
+    width: 70%;
+    float: left;
+}
+.content-box{
+    background-color:cyan;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px ;
+    margin: 10px;
+  
+}
+
+.rules{
+    background-color: white;
+    color:black;
+    border: 1px solid white;
+    float: right;
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.rules:hover{
+    background-color: firebrick;
+    color: black;
+}
+
+#rps-select{
+    padding: 5px;
+    margin-bottom: 5px;
+}
